@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leachate data</title>
+	<!--Meta tag is used to include the information of the web developer and some private comment for developer's convenience-->
+	<style type="text/css">
+		.main-header{
+			text-align: center;
+			background-color: black;
+			color: white;
+			padding: 1px;
+			font-size: 18px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+		}
+
+		#main-footer{
+			text-align: center;
+			font-size: 10px;
+
+		}
+
+		a{
+    		color: #000;
+  		}
+  		a:hover {
+    		color: blue;
+  		}
+
+  		li{
+  			font-size: 10px;
+  			font-family: sans-serif;
+  		}
+
+  		figcaption{
+  			font-size: 10px;
+  			font-style: italic;
+  			position: center;
+  		}
+
+  		#rect {
+    		animation-name: rainbow;
+    		animation-duration: 7s;
+    		animation-iteration-count: infinite;
+  		}
+  
+  		@keyframes rainbow {
+    		0% {background-color: dodgerblue;
+    		}
+    		25% {background-color: burlywood;
+    		}
+    		50% {background-color: dimgray;
+    		}
+    		75% {background-color: sienna;
+    		}
+    		100% {background-color: cadetblue;
+    		}
+  		}
+
+  		body {
+  			background: url(https://i.imgur.com/MJAkxbh.png);  
+  		}
+
+		.row_1 {
+  			display: flex;
+  			margin-left: 10px;
+  			margin-right: 10px;
+		}
+
+		.column_1 {
+  			flex: 20%;
+  			padding: 5px;
+		}
+
+		.column_2 {
+  			flex: 33.33%;
+  			padding: 5px;
+		}
+
+		.column_3 {
+  			flex: 50%;
+  			padding: 10px;
+  			margin-left: 20px;
+  			margin-right: 20px;
+		}
+
+	</style>
+
+<body>
+	<header class="main-header">
+		<h4>Weathering Chamber Leachate data</h4>
+	</header>
+	<div>
+		<ul>  
+			<li><a href="https://docs.google.com/spreadsheets/d/1r1F9IdtvLVW6UedN9XAppwoqqrIzBgYWyMkoo6J6esw/edit?usp=sharing" target="_blank">Chamber A left</a></li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1oBWPJtHIhtIeYSq4yqzbQJBj9WPIZ6CJDjE5RtFUCEU/edit?usp=sharing" target="_blank">Chamber A right</a></li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1U8GDMyZ_dJ7WhQ0815jJM2MuK6sVWLB77x7yfBjKZgI/edit?usp=sharing" target="_blank">Chamber B</a></li>
+			<li><a href="https://docs.google.com/spreadsheets/d/1O0iCsPr1v1DZf6daMmp1zijDVu0irfh1NjVn1IVePBU/edit?usp=sharing" target="_blank">Chamber C</a></li>
+		</ul>
+	</div>
+	<header class="main-header">
+		<h4>Leachate Collection Procedure</h4>
+	</header>	
+	<div>
+		<ol> 
+			<li>Calibrate PCSTestr 35</li> 
+			<li>Power off the lamps and remove the chamber lids to accelerate heat dissipation</li>
+			<li>Place sample containers underneath the corresponding chambers</li>
+			<li>Use the misting nozzle to evenly spray water on rock samples</li>
+			<li>Repeat step 3 for all chambers</li>
+			<li>After leachate samples are collected, immediately take measurements for EC, TDS and pH</li>
+			<li>Move the samples to the cold room</li>
+		</ol>
+	</div>
+
+	<div style="overflow-y: auto">
+		<div class="row_1">
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5058.JPG" alt="Snow" style="width:100%">
+    			<center>
+  					<figcaption>Calibrate PCSTestr 35 with buffer solutions</figcaption>
+  				</center>
+  			</div>
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5057.JPG" alt="Forest" style="width:100%">
+    			<center>
+  					<figcaption>Remove chamber lids</figcaption>
+  				</center>
+  			</div>
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5040.JPG" alt="Mountains" style="width:100%">
+    			<center>
+  					<figcaption>Place sample containers underneath the chambers</figcaption>
+  				</center>
+  			</div>
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5047.JPG" alt="Mountains" style="width:100%">
+    			<center>
+  					<figcaption>Spray water with misting nozzle</figcaption>
+  				</center>
+  			</div>
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5017.JPG" alt="Mountains" style="width:100%">
+    			<center>
+  					<figcaption>Leachate samples</figcaption>
+  				</center>
+  			</div>
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5051.JPG" alt="Mountains" style="width:100%">
+    			<center>
+  					<figcaption>Take measurements for EC, TDS and pH</figcaption>
+  				</center>
+  			</div>
+  			<div class="column_1">
+    			<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5059.JPG" alt="Mountains" style="width:100%">
+    			<center>
+  					<figcaption>Move samples to cold room</figcaption>
+  			    </center>
+  			</div>
+		</div>
+	</div>
+
+	<div class="row_1">
+  		<div class="column_3">
+    		<video width=100% height=100% controls>
+  				<source src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5048.MOV" type="video/mp4">
+  			</video>
+  			<center>
+  				<figcaption>Video Demonstration 1</figcaption>
+  			</center>
+  		</div>
+  		<div class="column_3">
+    		<video width=100% height=100% controls>
+  				<source src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5049.MOV" type="video/mp4">
+  			</video>
+  			<center>
+  				<figcaption>Video Demonstration 2</figcaption>
+  			</center>
+  		</div>
+	</div>
+	<br>
+
+	<header class="main-header" id="rect">
+		<h4>Photo Gallery</h4>
+	</header>	
+
+	<div class="row_1">
+  		<div class="column_2">
+    		<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5043.JPG" alt="Snow" style="width:100%">
+  		</div>
+  		<div class="column_2">
+    		<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5044.JPG" alt="Forest" style="width:100%">
+  		</div>
+  		<div class="column_2">
+    		<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5045.JPG" alt="Mountains" style="width:100%">
+  		</div>
+	</div>
+	<div class="row_1">
+  		<div class="column_2">
+    		<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5025.JPG" alt="Snow" style="width:100%">
+  		</div>
+  		<div class="column_2">
+    		<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5046.JPG" alt="Forest" style="width:100%">
+  		</div>
+  		<div class="column_2">
+    		<img src="https://outbox.eait.uq.edu.au/uqzzhao7/weathering_chamber_display_photos/IMG_5042.JPG" alt="Mountains" style="width:100%">
+  		</div>
+	</div>
+	<div class="row_1">
+  		<div class="column_2">
+    		<img src="#" alt="TBA" style="width:100%">
+  		</div>
+  		<div class="column_2">
+    		<img src="#" alt="TBA" style="width:100%">
+  		</div>
+  		<div class="column_2">
+    		<img src="#" alt="TBA" style="width:100%">
+  		</div>
+	</div>
+	<br>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
